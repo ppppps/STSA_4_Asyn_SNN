@@ -1,7 +1,11 @@
 # STSA_4_Asyn_SNN
 Pytorch Implementation of *Spatial-Temporal Self-Attention for Asynchronous Spiking Neural Networks, IJCAI 2023* 
 
-The code will be uploaded when the paper is published.
+It is an implementation of the STS-Transformer on the DVS128 Gesture dataset.
+
+You can download the DVS128 Gesture from [here](https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/folder/50167556794), and we recommend downloading the DVS128 dataset to 'your_path/dvs128/download'. Then you can change the *root_dir* in the *main_train_dvs128.py* file to 'your_path/dvs128'.
+
+We use a 24G NVIDIA RTX6000 GPU, and set the batch size to 32. This code can also run in parallel on multiple GPUs, we do not recommend setting the batch size too small.
 
 ## Paper
 [Paper Link](https://www.ijcai.org/proceedings/2023/0344.pdf)
